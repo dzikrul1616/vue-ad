@@ -1,4 +1,9 @@
 <template>
+  <div id="nav">
+    <router-link to="/"> Home </router-link>
+    <router-link to="/User"> User </router-link>
+    <router-view />
+  </div>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
